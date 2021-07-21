@@ -18,3 +18,4 @@ public class Variable01 {
 		System.out.println(num2);
 	}
 }
+
