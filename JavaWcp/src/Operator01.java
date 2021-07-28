@@ -42,5 +42,23 @@ public class Operator01 {
 		f *= 4;  // f = 48：fにf*4の結果を代入
 		f /= 2;  // f = 24：fにf/2の結果を代入
 		f %= 7;  // f = 3 ：fにf%7の結果を代入
+
+		// 関係演算子とは、2つの値が大きいか、小さいか、等しいかを調べる場合に使用する。
+		int g = 5;
+		boolean h;
+
+		// 「g」が「5」より小さい場合にtrue
+		h = g < 5;   // h = false
+		// 「g」が「5」より小さいか等しい場合にtrue
+		h = g <= 5;  // h = true
+		// 「g」が「4」より大きい場合にtrue
+		h = g > 4;   // h = true
+		// 「g」が「6」より大きいか等しい場合にtrue
+		h = g >= 6;  // h = false
+		// 「g」と「5」が等しい場合にtrue
+		h = g == 5;  // h = true
+		// 「g」と「5」が等しくない場合にtrue
+		h = g != 5;  // h = false
+		System.out.println(h);
 	}
 }
