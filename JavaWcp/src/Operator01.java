@@ -60,5 +60,21 @@ public class Operator01 {
 		// 「g」と「5」が等しくない場合にtrue
 		h = g != 5;  // h = false
 		System.out.println(h);
+
+		// 論理演算子は複数の式を条件とする場合に使用する。
+		boolean i = true;
+		boolean j = false;
+		boolean k;
+
+		// 「i」と後続の記述の両方がtrueの場合にtrue　&&：論理積（AND）
+		k = i && true;   // k = true
+		k = i && false;  // k = false
+		// 「j」または後続の記述がtrueの場合にtrue　||：論理和（OR）
+		k = j || true;   // k = true
+		k = j || false;  // k = false
+		// 「i」がfalseの場合にtrue　!：否定（NOT）
+		k = !i;          // k = false
+		// 「j」がfalseの場合にtrue
+		k = !j;          // k = true
 	}
 }
