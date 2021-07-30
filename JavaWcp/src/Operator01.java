@@ -76,5 +76,12 @@ public class Operator01 {
 		k = !i;          // k = false
 		// 「j」がfalseの場合にtrue
 		k = !j;          // k = true
+
+		// 文字列を連結する場合の演算子は算術演算子の足し算と同じ「+」になる。
+		String l = "100";
+		String m = "200";
+		String n;
+		n = l + m; // n = 100200
+		n = "あ" + "い"; // n = あい
 	}
 }
