@@ -87,12 +87,12 @@ public class Operator01 {
 		// == 演算子は文字列の比較に用いることが出来る。
 		String o = "applePie";
 		String p = "applePie";
-		r = o == p; // r = true
+//		r = o == p; // r = true
 
 		// 文字列リテラルを定義した場合は文字列の内容が一致しているとtrueを返すが、次のようなケースではfalseを返す。
 		String s = "applePie";
 		String t = "apple";
 		String u = t + "Pie";
-		v = s == u;  // v = false
+//		v = s == u;  // v = false
 	}
 }
