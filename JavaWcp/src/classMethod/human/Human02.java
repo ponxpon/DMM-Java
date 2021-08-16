@@ -1,3 +1,4 @@
+// 9章【クラスとメソッドを理解しよう】
 // パッケージ宣言
 package classMethod.human;
 

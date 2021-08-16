@@ -2,7 +2,7 @@
 // パッケージ宣言
 package classMethod;
 
-// インポート文
+// インポート文を記載してclassMethod.human.Human02クラスを参照できるようにする。
 import classMethod.human.Human02;
 
 public class ClassMethod02 {
