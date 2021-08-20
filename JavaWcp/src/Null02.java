@@ -14,7 +14,7 @@ public class Null02 {
 		// nullの変数を参照すると通称「ヌルポ」と呼ばれる「NullPointerException」のエラー
 		string1 = null;
 		System.out.println(string1 + "の文字数：" + string1.length());
-		
+
 		// ラッパークラスとはプリミティブ型を参照型として扱えるようにできるクラスのこと。
 		// プリミティブ型の値をラッパークラス型へ変換することをボクシングと言う。
 		// 逆にラッパークラス型の値からプリミティブ型への変換をアンボクシングと言う。
@@ -24,7 +24,7 @@ public class Null02 {
 		Integer integer2 = Integer.valueOf(5);  // 明示的なボクシング
 		int int1 = integer1;             // アンボクシング
 		int int2 = integer2.intValue();  // 明示的なアンボクシング
-		
+
 		// 配列とは同じ型の複数のデータを１つの変数で扱えるようにしたもの
 		int[] array1 = new int[3];  // 配列の宣言と生成
 		array1[0] = 60;  // インデックス番号「0」を指定して１番目の要素にデータを代入
@@ -33,7 +33,7 @@ public class Null02 {
 		int int3 = array1[2];  // インデックス番号「2」を指定して３番目の要素を取得
 
 		int array2[] = null;  // []は変数名の後ろでも可
-		
+
 		// 変数と同じように宣言と同時に初期化することももできる。
 		int[] array3 = new int[] { 10, 20, 50 };
 		int[] array4 = { 10, 20, 50 };
