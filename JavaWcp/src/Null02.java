@@ -1,4 +1,4 @@
-// 5章　参照型
+// 5章 参照型
 
 public class Null02 {
 	public static void main(String[] args) {
