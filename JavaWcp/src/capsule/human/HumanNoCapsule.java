@@ -1,7 +1,9 @@
 // 12章【カプセル化を理解しよう】
+
 package capsule.human;
 
 public class HumanNoCapsule {
+	// publicのアクセス修飾子のため外部から参照が可能
 	public String name;
 	public int age;
 
