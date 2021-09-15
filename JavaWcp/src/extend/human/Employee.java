@@ -16,3 +16,8 @@ public class Employee extends Human {
         return profile;
     }
 }
+
+// 基本構文
+// 修飾子 class クラス名 extends スーパークラス名 {
+// サブクラスの処理
+// }
