@@ -20,3 +20,7 @@ public class MobilePhone implements Phone, Camera {
     }
 }
 
+// インターフェースを実装する場合は、クラス名の後ろに「implements インターフェース名」を記述する。
+// 修飾子 class クラス名 implements インターフェース名, インターフェース名 {
+		// インターフェースを実装したメソッドなど
+// }
