@@ -4,20 +4,23 @@ package extend.phone;
 
 import extend.Phone;
 
+// Phone,Cameraインターフェースを実装したMobilePhoneクラスの宣言
 public class MobilePhone implements Phone, Camera {
-    private String number;
+	private String number;
 
-    public MobilePhone(String number) {
-        this.number = number;
-    }
+	public MobilePhone(String number) {
+		this.number = number;
+	}
 
-    public void takePicture() {
-        System.out.println("写真をとります。");
-    }
+	// Cameraインターフェースのメソッドを実装
+	public void takePicture() {
+		System.out.println("写真をとります。");
+	}
 
-    public void call(String number) {
-        System.out.println(this.number + " から " + number + " に電話をかけます。");
-    }
+	// Phoneインターフェースのメソッドを実装
+	public void call(String number) {
+		System.out.println(this.number + " から " + number + " に電話をかけます。");
+	}
 }
 
 // インターフェースを実装する場合は、クラス名の後ろに「implements インターフェース名」を記述する。
