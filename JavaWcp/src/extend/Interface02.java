@@ -1,3 +1,5 @@
+// 13章【継承を理解しよう】
+
 package extend;
 
 import extend.phone.MobilePhone;
