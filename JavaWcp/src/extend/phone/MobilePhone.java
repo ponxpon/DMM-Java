@@ -2,8 +2,6 @@
 
 package extend.phone;
 
-import extend.Phone;
-
 // Phone,Cameraインターフェースを実装したMobilePhoneクラスの宣言
 public class MobilePhone implements Phone, Camera {
 	private String number;
