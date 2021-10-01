@@ -15,7 +15,7 @@ public class Polymorphism01 {
 
 		// Employeeクラスのインスタンスを生成して、Humanクラスの変数に代入
 		Human human2 = new Employee("田中", 28, "システム部");
-		// オーバーライドしているので、Employeeクラスのメソッドが実行される
+		// オーバーライドしているので、Employeeクラスのメソッドが実行される。
 		System.out.println("Humanクラスのメソッド：プロフィールを紹介します。" + human2.getProfile());
 	}
 }
