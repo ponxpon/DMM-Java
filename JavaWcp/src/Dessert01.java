@@ -5,4 +5,10 @@ public enum Dessert01 {
 	// Dessert apple = Dessert.APPLE;
 	// Dessert iceCream = Dessert.ICE_CREAM;
 	// Dessert cake = Dessert.CAKE;
+
+	// 引数の型に用いることができる。
+	// static void printDessertName(Dessert dessert){
+	//     System.out.println(dessert);
+	// }
+	// このような名前の出力はこれまでString型の引数を用いて実現していたが、こうして列挙型を使うことで、意味の異なる別の引数を渡すことを防ぎやすくなる。
 }
