@@ -16,4 +16,10 @@ public enum Dessert01 {
 	// Dessert orange = new Dessert();
 	// 列挙型はクラスとは違い、これはコンパイルエラーになる。
 	// 列挙型のコンストラクタは、コンパイル時に自動で作成されるが、privateなので外部から呼ぶことができない。
+
+	// ==で比較できる。
+	// String x = new String("あ");
+	// String y = new String("あ");
+	// System.out.println(x == y); // falseを返す。
+	// System.out.println(x.equals(y)); // trueを返す。
 }
