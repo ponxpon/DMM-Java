@@ -22,4 +22,11 @@ public enum Dessert01 {
 	// String y = new String("あ");
 	// System.out.println(x == y); // falseを返す。
 	// System.out.println(x.equals(y)); // trueを返す。
+	// 参照型（Object型）に対して==を使う場合は、==は、インスタンスが完全に同一である場合のみtrueを返す。
+
+	// 列挙型の場合
+	// Dessert x = Dessert.APPLE;
+	// Dessert y = Dessert.APPLE;
+	// System.out.println(x == y); // trueを返す。
+	// System.out.println(x.equals(y));    // trueを返す。
 }
