@@ -16,10 +16,22 @@ public class List01 {
 	List<Integer> list2 = new LinkedList<Integer>();
 
 	// Listの操作
+
 	// 要素を追加する
 	// list1.add("りんご");
 	// list1.add("みかん");
 
 	// 位置を指定して要素を追加する
 	// list1.add(1, "バナナ");
+
+	// 要素の取得：getメソッドを使用
+	// 要素を取得する
+	// list1.get(0);
+
+	// 要素の存在チェック：containsメソッドを使用
+	// 存在チェック (trueを返す)
+	// list1.contains("バナナ");
+
+	// 存在チェック (falseを返す)
+	// list1.contains("なし");
 }
