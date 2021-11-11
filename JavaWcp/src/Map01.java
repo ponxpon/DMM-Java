@@ -13,4 +13,22 @@ public class Map01 {
 
 	// TreeMapを生成する場合
 	Map<String, String> map2 = new TreeMap<String, String>();
+
+	public void main(String[] args) {
+		// Mapの操作
+
+		// 要素の追加：putメソッド
+		// 要素を追加する。
+		map1.put(0, "ぶどう");
+		map1.put(3, "もも");
+
+		// 登録済みのキーで追加すると上書きされる。
+		map1.put(0, "マスカット");
+
+		// 要素の取得：getメソッド
+		// 要素を取得する
+		map1.get(0); // マスカットを返す
+		map1.get(1); // nullを返す
+
+	}
 }
