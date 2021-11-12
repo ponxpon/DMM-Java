@@ -30,5 +30,11 @@ public class Map01 {
 		map1.get(0); // マスカットを返す
 		map1.get(1); // nullを返す
 
+		// 要素の存在チェック：containsKeyやcontainsValueを使う。
+		// キーの存在チェック (trueを返す)
+		map1.containsKey(0);
+
+		// 値の存在チェック (falseを返す)
+		map1.containsValue("ぶどう");
 	}
 }
