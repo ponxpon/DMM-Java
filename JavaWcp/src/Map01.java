@@ -36,5 +36,17 @@ public class Map01 {
 
 		// 値の存在チェック (falseを返す)
 		map1.containsValue("ぶどう");
+
+		// 要素数の取得：sizeメソッド
+		map1.size(); // 2を返す
+
+		// 要素の削除：removeメソッド
+		// キーを指定して要素を削除する
+		map1.remove(0);
+		map1.remove(1); // 何もしない
+
+		// キーと値を指定して要素を削除する
+		map1.remove(3, "もも");
+		map1.remove(3, "なし"); // 何もしない
 	}
 }
