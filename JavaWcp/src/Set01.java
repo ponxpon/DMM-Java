@@ -12,4 +12,13 @@ public class Set01 {
 
 	// LinkedHashSetを生成する場合
 	Set<Integer> set2 = new LinkedHashSet<Integer>();
+
+	public void main(String[] args) {
+		// Setの操作
+
+		// 要素の追加
+		// 要素を追加する
+		set1.add("スイカ");
+		set1.add("メロン");
+	}
 }
