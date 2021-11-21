@@ -20,5 +20,12 @@ public class Set01 {
 		// 要素を追加する
 		set1.add("スイカ");
 		set1.add("メロン");
+
+		// 要素の存在チェック：containsメソッド
+		// 存在チェック (trueを返す)
+		set1.contains("スイカ");
+
+		// 存在チェック (falseを返す)
+		set1.contains("なし");
 	}
 }
